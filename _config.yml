@@ -1,0 +1,36 @@
+theme: minima
+title: Public Health Intelligence Prompts Library
+description: A comprehensive collection of AI prompts for public health intelligence applications
+
+# Site settings
+author:
+  name: Gigi Sung
+  email: your-email@example.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Navigation
+header_pages:
+  - prompts/epidemiology/README.md
+  - prompts/surveillance/README.md
+  - prompts/data-analysis/README.md
+  - prompts/reporting/README.md
+  - prompts/risk-assessment/README.md
+  - prompts/policy/README.md
+  - prompts/emergency-response/README.md
+  - prompts/community-health/README.md
+  - prompts/training-education/README.md
+  - docs/usage-guidelines.md
+  - CONTRIBUTING.md
+
+# Exclude from processing
+exclude:
+  - .git/
+  - .gitignore
+  - LICENSE
+  - vendor/
